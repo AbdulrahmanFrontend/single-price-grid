@@ -1,0 +1,48 @@
+@import "tailwindcss";
+:root {
+  --Teal-500: #2ab2af;
+  --Green-400: #c0df34;
+  --Teal-100: #e5eff5;
+  --Gray-500: #98a6bd;
+}
+html {
+  font-size: clamp(10px, 2.5vw, 16px);
+}
+#root {
+  overflow-x: hidden;
+}
+body {
+  font-family: "Karla", sans-serif;
+  box-sizing: border-box;
+}
+main {
+  background-color: var(--Teal-100);
+}
+.up h1 {
+  color: var(--Teal-500);
+  font-size: 2rem;
+}
+.up h2 {
+  color: var(--Green-400);
+}
+.up p {
+  color: var(--Gray-500);
+}
+.down {
+  background-color: var(--Teal-500);
+}
+.interval {
+  color: var(--Teal-100);
+}
+a {
+  color: white;
+  background-color: var(--Green-400);
+}
+a:hover,
+a:active,
+a:focus {
+  color: white;
+}
+li {
+  color: var(--Teal-100);
+}
